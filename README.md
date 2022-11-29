@@ -108,3 +108,7 @@ PATCH is used for **modify** capabilities. The PATCH request only needs to conta
 
 DELETE
 DELETE is pretty easy to understand. It is used to **delete** a resource identified by a URI.
+
+
+AREA 
+Area allows us to partition the large application into smaller units where each unit contains a separate MVC folder structure, same as the default MVC folder structure. For example, a large enterprise application may have different modules like admin, finance, HR, marketing, etc. So an Area can contain a separate MVC folder structure for all these modules.
